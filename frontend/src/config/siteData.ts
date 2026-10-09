@@ -86,17 +86,17 @@ export const siteData = {
 
   testimonials: [
     {
-      quote: 'The best Mandi I\'ve ever had outside the Middle East. The rice was perfectly spiced and the chicken was incredibly tender.',
+      quote: 'ഗൾഫിന് പുറത്ത് ഞാൻ കഴിച്ചതിൽ വെച്ച് ഏറ്റവും മികച്ച മന്തി. ചോറ് നല്ല മസാലയും ചിക്കൻ വളരെ സോഫ്റ്റും ആയിരുന്നു.',
       author: 'Sample Review',
       note: '— Replace with real customer testimonials',
     },
     {
-      quote: 'We ordered the Mutton Mandi for a family gathering and everyone was blown away. This is our go-to place now.',
+      quote: 'കുടുംബസംഗമത്തിന് ഞങ്ങൾ മട്ടൺ മന്തി ഓർഡർ ചെയ്തു, എല്ലാവർക്കും അത് ഒരുപാട് ഇഷ്ടപ്പെട്ടു. ഇപ്പോൾ ഇതാണ് ഞങ്ങളുടെ പ്രിയപ്പെട്ട ഇടം.',
       author: 'Sample Review',
       note: '— Replace with real customer testimonials',
     },
     {
-      quote: 'The smoky flavour, the presentation, the taste — everything about this place screams quality. Absolutely loved it.',
+      quote: 'സ്മോക്കി ഫ്ലേവർ, മികച്ച പ്രസൻ്റേഷൻ, അപാരമായ രുചി — ഇവിടുത്തെ എല്ലാം വളരെ മികച്ചതാണ്. തീർച്ചയായും ഇഷ്ടപ്പെട്ടു.',
       author: 'Sample Review',
       note: '— Replace with real customer testimonials',
     },
