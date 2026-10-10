@@ -1,5 +1,6 @@
 import { useState, useCallback } from 'react';
 import LoadingScreen from './components/LoadingScreen';
+import FloatingWhatsApp from './components/FloatingWhatsApp';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Story from './components/Story';
@@ -33,6 +34,7 @@ function App() {
           <Contact />
         </main>
         <Footer />
+        <FloatingWhatsApp />
       </div>
     </>
   );

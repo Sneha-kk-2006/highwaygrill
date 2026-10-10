@@ -1144,3 +1144,46 @@
   0%, 100% { transform: scale(1); opacity: 1; }
   50% { transform: scale(0.95); opacity: 0.8; }
 }
+
+/* ═══════════════════════════════════════════════════════
+   FLOATING WHATSAPP
+   ═══════════════════════════════════════════════════════ */
+.hg-floating-wa {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  background-color: #25D366;
+  color: #FFF;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  z-index: 1000;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hg-floating-wa:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.4);
+}
+
+.hg-floating-wa svg {
+  width: 32px;
+  height: 32px;
+}
+
+@media (max-width: 768px) {
+  .hg-floating-wa {
+    bottom: 16px;
+    right: 16px;
+    width: 50px;
+    height: 50px;
+  }
+  .hg-floating-wa svg {
+    width: 26px;
+    height: 26px;
+  }
+}

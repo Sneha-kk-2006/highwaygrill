@@ -47,9 +47,6 @@ export default function Footer() {
             <p>{siteData.contact.phone}</p>
             <p>{siteData.contact.email}</p>
             <div style={{ display: 'flex', gap: '16px', marginTop: '16px' }}>
-              <a href={siteData.contact.whatsappLink} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent-amber)', fontSize: '0.9rem', fontWeight: 600, textDecoration: 'none' }}>
-                WhatsApp ↗
-              </a>
               <a href={siteData.contact.mapLink} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent-amber)', fontSize: '0.9rem', fontWeight: 600, textDecoration: 'none' }}>
                 Google Maps ↗
               </a>
